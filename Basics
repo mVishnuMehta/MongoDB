@@ -1,0 +1,11 @@
+Installing Mongodb using brew
+->Open terminal a) brew update
+                b) brew install mongodb
+                c) Check using type mongo
+Using mongodb-
+Before this let us first understand some basics of MongoDB-
+In this each record is called as document,while group of records is called a table, it is called as collecctions in Mongo.
+
+Some basics commands-
+a) show dbs-to show the databases
+b? use nameofdatabase-To allow the access to the da
