@@ -8,4 +8,21 @@ In this each record is called as document,while group of records is called a tab
 
 Some basics commands-
 a) show dbs-to show the databases
-b? use nameofdatabase-To allow the access to the da
+b? use nameofdatabase-To allow the access to the database.
+
+show dbs
+db1
+db2
+db3
+
+use db1;
+
+show collections(tables);
+
+db.nameofcollection.find();
+It shows the documents(which is the rows of the tables)
+
+db.nameofcollection.find().pretty();
+Arranges it in a easily readable manner.
+
+
