@@ -25,4 +25,15 @@ It shows the documents(which is the rows of the tables)
 db.nameofcollection.find().pretty();
 Arranges it in a easily readable manner.
 
+ MYSQL          MONGODB
+datbase         database
+table           collection
+record          documents
 
+USE MONGOCOMPASS FOR UI INTERFACE
+Basics Commands-
+show dbs;
+use dbname;
+show collections;
+db.createCollection('name of collection');
+db.nameofcollection.insert({name:'VISHNU',class:'12',Age:'22'});
